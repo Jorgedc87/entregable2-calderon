@@ -1,4 +1,4 @@
-# Entregable 1 - Semana 4
+# Entregable 2 - Semana 7
 
 ## Descripción
 Simulador de compra de pasajes. Como segunda etapa, existirán varios destinos, con valor único y un descuento por compra **Ida y Vuelta**. Se agregará la posibilidad de comprar más de un pasaje y verlo reflejado en el Dom

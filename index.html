@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pre entregable</title>
+  <link rel="icon" href="./favicon.png" type
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins">
+  <header>
+    <nav>
+      <ul class="flex h-[100px] justify-around items-center bg-hero bg-cover text-white ">
+          <li class="hover:text-[#a5d81c]"><a href="#">Home</a></li>
+          <li class="hover:text-[#a5d81c]"><a href="#">Nosotros</a></li>
+          <li class=""><a href=""><img src="./img/logo.png" class="w-[100px] drop-shadow-xl" alt="logo empresa"></a></li>
+          <li class="hover:text-[#a5d81c]"><a href="#">Servicios</a></li>
+          <li class="hover:text-[#a5d81c]"><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="bg-[#e3e3e3] min-h-[calc(100vh-(302px))]">
+    <section class="py-10 flex justify-evenly">
+      <div class="flex flex-col items-center justify-center">
+        <div class="max-w-[400px] bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="./img/cards/mdp.jpg" alt="avion" class="w-full h-[200px] object-cover object-center">
+          <div class="p-6">
+            <h2 class="font-bold text-xl text-gray-800">Mar del Plata</h2>
+            <p class="text-gray-700 mt-2">¡Viajes en avión a la feliz!</p>
+            <p class="text-gray-700 mt-2">Precio pasaje: $41000</p>
+            <p class="text-gray-700 mt-2">Precio pasaje c/descuento: $34850</p>
+            <p class="italic text-xs">* Al comprar pasajes ida y vuelta se aplica un descuento.</p>
+            <button class="bg-[#1c99d8] text-white font-bold py-2 px-4 mt-4 rounded hover:bg-[#49ade0] transition-all duration-400" onclick="compraPasaje()">Comprar</button>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+  </main>
+
+  <footer cla>
+    <!-- Footer responsivo con logo y mapa del sitio  -->
+    <div class="bg-[#1c99d8] text-white p-5">
+      <div class="container px-10 flex flex-col md:flex-row justify-between items-center mx-auto">
+        <div class="flex flex-col items-center md:items-start justify-center">
+          <img src="./img/logo.png" alt="logo empresa" class="w-[100px] mx-auto">
+          <p class="text-sm mt
+          -2">© 2024 Todos los derechos reservados</p>
+        </div>
+        <div class="flex flex-col items-center md:items-start mt-5 md:mt-0">
+          <h3 class="font-bold text-lg">Mapa del sitio</h3>
+          <ul class="mt-2">
+            <li><a href="#" class="hover:underline">Home</a></li>
+            <li><a href="#" class="hover:underline">Nosotros</a></li>
+            <li><a href="#" class="hover:underline">Servicios</a></li>
+            <li><a href="#" class="hover:underline">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col items-center md:items-start mt-5 md:mt-0">
+          <h3 class="font-bold text-lg">Legales</h3>
+          <ul class="mt-2">
+            <li><a href="#" class="hover:underline">Terminos y condiciones</a></li>
+            <li><a href="#" class="hover:underline">Política de privacidad</a></li>
+            <li><a href="#" class="hover:underline">Política de devoluciones</a></li>
+            <li><a href="#" class="hover:underline">Pedir un reembolso</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
+  <div class="h-[30px] flex justify-center items-center bg-[#17894a] text-white text-xs">
+    <p>Diseñado por Jorge Calderón</p>
+  </div>
+  
+  <!-- scripts -->
+  <script src="./js/app.js"></script>
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./js/tailwind.config.js"></script>
+</body>
+</html>
