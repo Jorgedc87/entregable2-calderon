@@ -58,7 +58,7 @@ const createTicket = (passenger, index) => {
       <p class="text-xs font-semibold">TEL: <span class="font-normal">${passenger.phone}</span></p>
     </div>
     <div class="w-full flex justify-center mt-4">
-      <img src="../img/codbarras.png" alt="Código de barras" class="w-40 h-10 object-cover">
+      <img src="./img/codbarras.png" alt="Código de barras" class="w-40 h-10 object-cover">
     </div>
   `;
 
