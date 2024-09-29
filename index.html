@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pre entregable</title>
-  <link rel="icon" href="./favicon.png" type
+  <link rel="icon" href="./favicon.png" type="image/png">
   <!-- CSS -->
   <link rel="stylesheet" href="./css/styles.css">
   <!-- Fonts -->
@@ -26,22 +26,18 @@
   </header>
 
   <main class="bg-[#e3e3e3] min-h-[calc(100vh-(302px))]">
-    <section class="py-10 flex justify-evenly">
-      <div class="flex flex-col items-center justify-center">
-        <div class="max-w-[400px] bg-white rounded-lg shadow-lg overflow-hidden">
-          <img src="./img/cards/mdp.jpg" alt="avion" class="w-full h-[200px] object-cover object-center">
-          <div class="p-6">
-            <h2 class="font-bold text-xl text-gray-800">Mar del Plata</h2>
-            <p class="text-gray-700 mt-2">¡Viajes en avión a la feliz!</p>
-            <p class="text-gray-700 mt-2">Precio pasaje: $41000</p>
-            <p class="text-gray-700 mt-2">Precio pasaje c/descuento: $34850</p>
-            <p class="italic text-xs">* Al comprar pasajes ida y vuelta se aplica un descuento.</p>
-            <button class="bg-[#1c99d8] text-white font-bold py-2 px-4 mt-4 rounded hover:bg-[#49ade0] transition-all duration-400" onclick="compraPasaje()">Comprar</button>
-          </div>
-        </div>
-      </div>
-     
+    <section class="py-5 flex justify-center" id="filters">
+      <!-- El contenido del filtro se generará dinámicamente -->
     </section>
+
+    <section class="py-10 flex flex-wrap items-center justify-center gap-4" id="travel-list">
+      <!-- Contenido -->
+    </section>
+
+    <!-- Spinner -->
+    <div id="loading-spinner" class="hidden flex justify-center items-center py-5">
+      <div class="loader"></div>
+    </div>
   </main>
 
   <footer cla>
@@ -80,7 +76,7 @@
   </div>
   
   <!-- scripts -->
-  <script src="./js/app.js"></script>
+  <script type="module" src="./js/app.js"></script>
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="./js/tailwind.config.js"></script>

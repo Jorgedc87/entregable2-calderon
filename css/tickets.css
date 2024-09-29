@@ -1,0 +1,12 @@
+.ticket {
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+  width: 350px;
+  background: #fff;
+  position: relative;
+}
+
+.barcode {
+  width: 100px;
+  height: 30px;
+}

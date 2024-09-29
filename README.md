@@ -16,33 +16,29 @@ Se intenta seguir con las **buenas prácticas**, definiendo **variables** y **fu
 
 ### El usuario podrá: 
 
-- Iniciar una compra.
+- Ver todos los paquetes disponibles
 - Elegir cantidad de pasajes.
-- Decidir si es ida y vuelta.
-- Ingresar Nombre y DNI de cada pasajero.
+- Iniciar la compra
+- Completar formulario y seleccionar si es ida y vuelta
+- Ver resumen de compra
 - Confirmar compra al final.
-- Obtener un mensaje de compra finalizada.
+- Visualizar los pasajes al finalizar.
 
 ## Validaciones
 
-- Se valida que la cantidad de pasajes sea un número entero y se brindan 3 intentos.
-- Se valida que el nombre no sea null y se brindan 3 intentos.
-- Se valida que el DNI sea un número mayor a 0 y se brindan 3 intentos.
-- Para las validaciones se utilizaron diferentes ciclos: **for, while y do while**
-
-
+De momento **quité las validaciones**. Utilicé todo el esfuerzo en el resto de los requisitos.
 
 ## Comentarios
 
-- Iba a utilizar varios destinos pero para simplificar, y que no haya tanto código **JS**, lo dejé solamente en un destino.
-
 - Se colocaron diferentes comentarios en el código **HTML** y en el código **JS** para mejor entendimiento.
 
-- Se agregó funcionalidad onclick en botón **Comprar** para activar la compra.
+- Se utiliza localStorage para: Guardar los "pasajeros" con toda la información de los pasajes, y luego cargarlos y utilizarlos en la vista de **Tus Pasajes**.
 
-- Se agregó un **console.table** al final de la función para mostrar una tabla de los pasajes vendidos.
+- Utilicé clases para la creación de Passengers (pasajeros). Luego se guardan en un array de objetos/clases.
 
-- Adicionalmente cree un array para hacer uso de objetos literales dentro. Se está guardando el objeto **pasajero**
+- Funcionalidades agregué bastantes.
+
+- Para poder utilizar los imports y exports de js, se agregó **type="module"** en el script y funciona correctamente.
 
 ## Versión
 
