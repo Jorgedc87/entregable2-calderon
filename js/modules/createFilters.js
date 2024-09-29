@@ -5,7 +5,7 @@ export const createFilters = (filterCallback) => {
   const filtersContainer = document.getElementById('filters');
 
   // Crea formulario de filtros
-  const form = createElement('form', ['flex', 'space-x-4']);
+  const form = createElement('form', ['flex', 'flex-col', 'md:flex-row', 'space-y-4', 'md:space-y-0', 'md:space-x-4']);
 
   // Crea select de ordenar por precio
   const priceFilter = createElement('select', ['border', 'px-2', 'py-1', 'rounded']);
