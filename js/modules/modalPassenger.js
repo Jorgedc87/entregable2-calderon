@@ -240,7 +240,6 @@ export const openModal = (passengerCount, travelPoint) => {
 // Función para cerrar el modal
 const closeModal = () => {
   modal.classList.add('hidden');
-  modalContent.innerHTML = '';
 };
 
 // Ocultar el modal al hacer clic fuera de él
