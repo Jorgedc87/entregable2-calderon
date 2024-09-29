@@ -7,7 +7,7 @@ const travelPoints = [
     price: 41000,
     discountedPrice: 34850,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/mdp.webp",
+    image: "../img/travelpoints/mdp.webp",
     stock: 10
   },
   {
@@ -18,7 +18,7 @@ const travelPoints = [
     price: 60000,
     discountedPrice: 51000,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/bariloche.webp",
+    image: "../img/travelpoints/bariloche.webp",
     stock: 5
   },
   {
@@ -29,7 +29,7 @@ const travelPoints = [
     price: 35000,
     discountedPrice: 29750,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/cordoba.webp",
+    image: "../img/travelpoints/cordoba.webp",
     stock: 7
   },
   {
@@ -40,7 +40,7 @@ const travelPoints = [
     price: 55000,
     discountedPrice: 46750,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/mendoza.webp",
+    image: "../img/travelpoints/mendoza.webp",
     stock: 3
   },
   {
@@ -51,7 +51,7 @@ const travelPoints = [
     price: 48000,
     discountedPrice: 40800,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/salta.webp",
+    image: "../img/travelpoints/salta.webp",
     stock: 2
   },
   {
@@ -62,7 +62,7 @@ const travelPoints = [
     price: 72000,
     discountedPrice: 61200,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/ushuaia.webp",
+    image: "../img/travelpoints/ushuaia.webp",
     stock: 1
   },
   {
@@ -73,7 +73,7 @@ const travelPoints = [
     price: 65000,
     discountedPrice: 55250,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/iguazu.webp",
+    image: "../img/travelpoints/iguazu.webp",
     stock: 4
   },
   {
@@ -84,7 +84,7 @@ const travelPoints = [
     price: 30000,
     discountedPrice: 25500,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/rosario.webp",
+    image: "../img/travelpoints/rosario.webp",
     stock: 6
   },
   {
@@ -95,7 +95,7 @@ const travelPoints = [
     price: 68000,
     discountedPrice: 57800,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/calafate.webp",
+    image: "../img/travelpoints/calafate.webp",
     stock: 8
   },
   {
@@ -106,7 +106,7 @@ const travelPoints = [
     price: 43000,
     discountedPrice: 36550,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/sanjuan.webp",
+    image: "../img/travelpoints/sanjuan.webp",
     stock: 9
   },
   {
@@ -117,7 +117,7 @@ const travelPoints = [
     price: 32000,
     discountedPrice: 27200,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/villacarlospaz.webp",
+    image: "../img/travelpoints/villacarlospaz.webp",
     stock: 7
   },
   {
@@ -128,7 +128,7 @@ const travelPoints = [
     price: 54000,
     discountedPrice: 45900,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/puertomadryn.webp",
+    image: "../img/travelpoints/puertomadryn.webp",
     stock: 5
   },
   {
@@ -139,7 +139,7 @@ const travelPoints = [
     price: 48000,
     discountedPrice: 40800,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/sanrafael.webp",
+    image: "../img/travelpoints/sanrafael.webp",
     stock: 6
   },
   {
@@ -150,7 +150,7 @@ const travelPoints = [
     price: 37000,
     discountedPrice: 31450,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/tandil.webp",
+    image: "../img/travelpoints/tandil.webp",
     stock: 8
   },
   {
@@ -161,7 +161,7 @@ const travelPoints = [
     price: 61000,
     discountedPrice: 51850,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/sanmartindelosandes.webp",
+    image: "../img/travelpoints/sanmartindelosandes.webp",
     stock: 4
   },
   {
@@ -172,7 +172,7 @@ const travelPoints = [
     price: 31000,
     discountedPrice: 26350,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/gualeguaychu.webp",
+    image: "../img/travelpoints/gualeguaychu.webp",
     stock: 7
   },
   {
@@ -183,7 +183,7 @@ const travelPoints = [
     price: 34000,
     discountedPrice: 28900,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/villademerlo.webp",
+    image: "../img/travelpoints/villademerlo.webp",
     stock: 5
   },
   {
@@ -194,7 +194,7 @@ const travelPoints = [
     price: 29000,
     discountedPrice: 24650,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/laplata.webp",
+    image: "../img/travelpoints/laplata.webp",
     stock: 10
   },
   {
@@ -205,7 +205,7 @@ const travelPoints = [
     price: 63000,
     discountedPrice: 53550,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/laangostura.webp",
+    image: "../img/travelpoints/laangostura.webp",
     stock: 3
   },
   {
@@ -216,7 +216,7 @@ const travelPoints = [
     price: 47000,
     discountedPrice: 39950,
     discountInfo: "* Al comprar pasajes ida y vuelta se aplica un descuento.",
-    image: "../../img/travelpoints/cafayate.webp",
+    image: "../img/travelpoints/cafayate.webp",
     stock: 6
   }
 ];
